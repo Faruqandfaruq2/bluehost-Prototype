@@ -1,0 +1,552 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+ }
+.wrapper {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.wrapper .one {
+    display: flex;
+    height: 100vh;
+    background-color:#ccedff ;
+    padding: 80px 70px;
+
+}
+.wrapper .one .one__left .one__left__heading1 {
+    display: flex;
+    font-size: 14px;
+    line-height: 1.7rem;
+    text-transform: uppercase;
+    letter-spacing: .24rem;
+    font-family: proxima-nova,sans-serif;
+    font-weight: 100;
+    margin-bottom: 2.2rem;
+}
+.wrapper .one .one__left .one__left__heading2 {
+    display: flex;
+    font-size: 41px;
+    line-height: 4.1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #1d2a3b;
+    font-weight: 400px;
+}
+.wrapper .one .one__left .one__left__content {
+    display: flex;
+    font-size: 18px;
+    font-family: proxima-nova,sans-serif;
+    color: #1d2a3b;
+    margin-top: 25px;
+}
+.wrapper .one .one__left .one__left__button button {
+    display: block;
+    background-color: #2c76dc;
+    padding: 23px 60px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 20px;
+    outline: none;
+    margin-top: 30px;
+border:0px
+}
+.wrapper .one .one__left .one__left__button button a {
+    color: white;
+    text-decoration: none;
+    font-weight: 100px;
+    font-size: 20px;
+}
+.wrapper .one .one__left .one__left__button button a:hover {
+    color: #2c76dc;
+}
+
+.wrapper .one .one__left {
+    flex: 1;
+}
+.wrapper .one .one__right  {
+    flex: 1;
+    background-image: url(./images/guy-making-food-913.webp);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: contain;
+    height: 100vh;
+}
+ .two .second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    column-gap: 1rem;
+}
+.two .second .heading h2 {
+    font-size: 17px;
+    font-weight: 1rem;
+    font-family: proxima-nova,sans-serif;
+    color: #1d2a3b;
+}
+.two .second .heading p {
+    font-family:proxima-nova,sans-serif ;
+    font-size: 15px;
+    color: #1d2a3b;
+    margin-top: 7px;
+}
+
+.three .third {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    flex-direction: column;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 29px;
+    color:#1d2a3b;
+}
+.three .third .wordings p {
+    display: flex;
+    font-size: 17px;
+    font-family:proxima-nova,sans-serif ;
+    margin-top: 20px;
+    padding-left: 17px;
+}
+.three .third .numbers {
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    font-family: proxima-nova,sans-serif;
+    margin-right: 10px;
+}
+.three .third .numbers span:nth-child(1) {
+    display: flex;
+    margin-right: 17px;
+    border-bottom: 2px solid #2c76dc;
+
+}
+.three .third .numbers span:nth-child(2):hover {
+    border-bottom: 2px solid #2c76dc;
+}
+.three .third .numbers {
+    display: column;
+    flex-direction: row;
+    font-size: 13px;
+    font-weight: 60px;
+    font-family: proxima-nova,sans-serif;
+    margin-top: 30px;
+}
+.four__wrapper {
+    display: flex;
+    flex-direction: row;
+    background-color: #fbfbfb;
+    color: #1d2a3b;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    margin-top: 40px;
+}
+.four__wrapper .four__wrapper__first {
+    flex: 1;
+    border: 0.3px solid lightgrey;
+    height: 170vh;
+    width: 130vw;
+    margin-bottom: 300px;
+    margin-left: 70px;
+    
+}
+.four__wrapper .four__wrapper__first__one {
+    display: flex;
+    flex-direction: column;
+    font-family: proxima-nova,sans-serif;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 15px;
+}
+.four__wrapper .four__wrapper__first__one span :nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    font-weight: bolder;
+    margin-top: 20px;
+    font-size: 19px;
+}
+.four__wrapper .four__wrapper__first__one span:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    font-size: 37px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:800;
+}
+.four__wrapper .four__wrapper__first__one span:nth-child(3) {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    font-weight: 600px;
+    font-size: 14px;
+}
+.four__wrapper .four__wrapper__first__one span button {
+    display: flex;
+    background-color: #2c76dc;
+    background-image: none;
+    border: 1px solid #2c76dc;
+    color: #fff;
+    margin-top: 20px;
+    border-radius: 3px;
+    padding: 9px ;
+    width: 130px;
+}
+.four__wrapper .four__wrapper__first__one span button:hover {
+    background-color:#ccedff;
+}
+.four__wrapper .four__wrapper__first__one span:nth-child(4) button a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 200;
+    color: #fff;
+    margin-left: 30px;
+}
+.four__wrapper .four__wrapper__first__one span:nth-child(5) {
+    display: flex;
+    margin-top: 20px;
+}
+.four__wrapper .four__wrapper__first__one span:nth-child(6) h2 {
+    font-size: 13px;
+    margin-bottom: 13px;
+}
+.four__wrapper .four__wrapper__first__one span:nth-child(7) h2 {
+    font-size: 13px;
+    margin-bottom: 13px;
+    margin-top: 29px;
+}
+.four__wrapper .four__wrapper__first__one span:nth-child(8) h2 {
+    font-size: 13px;
+    margin-bottom: 13px;
+}
+/* styling four__wrapper__first__one ends here */
+.four__wrapper .four__wrapper__second {
+    flex: 1;
+    border: 0.3px solid lightgrey;
+    height: 170vh;
+    width: 130vw;
+    margin-bottom: 300px;
+    
+}
+.four__wrapper .four__wrapper__second__one {
+    display: flex;
+    flex-direction: column;
+    font-family: proxima-nova,sans-serif;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 15px;
+}
+.four__wrapper .four__wrapper__second__one span {
+    display: flex;
+    flex-direction: column;
+}
+.four__wrapper .four__wrapper__second__one span:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    font-weight: bolder;
+    margin-top: 20px;
+    font-size: 19px
+}
+.four__wrapper .four__wrapper__second__one span:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    font-weight: 800;
+    font-size: 37px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 10px;
+}
+.four__wrapper .four__wrapper__second__one span:nth-child(3) {
+    font-size: 14px;
+    margin-top: 5px;
+}
+.four__wrapper .four__wrapper__second__one span button {
+    display: flex;
+    background-color: #2c76dc;
+    background-image: none;
+    border: 1px solid #2c76dc;
+    color: #fff;
+    margin-top: 20px;
+    border-radius: 3px;
+    padding: 9px ;
+    width: 130px;
+}
+.four__wrapper .four__wrapper__second__one span button:hover {
+    background-color:#ccedff;
+}
+.four__wrapper .four__wrapper__second__one span:nth-child(4) button a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 200;
+    color: #fff;
+    margin-left: 30px;
+}
+.four__wrapper .four__wrapper__second__one span:nth-child(5) {
+    display: flex;
+    margin-top: 40px;
+}
+.four__wrapper .four__wrapper__second__one span:nth-child(6) h2 {
+    font-size: 13px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.four__wrapper .four__wrapper__second__one span:nth-child(7) h2 {
+    display: flex;
+    font-size: 13px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-top: 29px;
+}
+.four__wrapper .four__wrapper__second__one span:nth-child(8) h2 {
+    display: flex;
+    font-size: 13px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+/* styling .four__wrapper__second__one ends here  */
+.four__wrapper .four__wrapper__third {
+    flex: 1;
+    border: 0.3px solid lightgrey;
+    height: 170vh;
+    width: 130vw;
+    margin-bottom: 300px;
+}
+.four__wrapper .four__wrapper__third__one {
+    display: flex;
+    flex-direction: column;
+    font-family: proxima-nova,sans-serif;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 15px;
+}
+.four__wrapper .four__wrapper__third__one span:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    font-weight: bolder;
+    margin-top: 20px;
+    font-size: 19px
+}
+.four__wrapper .four__wrapper__third__one span:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    font-weight: 800;
+    font-size: 37px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 10px;
+}
+.four__wrapper .four__wrapper__third__one span:nth-child(3) {
+    font-size: 14px;
+    margin-top: 9px;
+}
+.four__wrapper .four__wrapper__third__one span button {
+    display: flex;
+    background-color: #2c76dc;
+    background-image: none;
+    border: 1px solid #2c76dc;
+    color: #fff;
+    margin-top: 20px;
+    border-radius: 3px;
+    padding: 9px ;
+    width: 130px;
+}
+.four__wrapper .four__wrapper__third__one span button:hover {
+    background-color:#ccedff;
+}
+.four__wrapper .four__wrapper__third__one span:nth-child(4) button a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 200;
+    color: #fff;
+    margin-left: 30px;
+}
+.four__wrapper .four__wrapper__third__one span:nth-child(5) {
+    display: flex;
+    margin-top: 40px;
+}
+.four__wrapper .four__wrapper__third__one span:nth-child(6) h2 {
+    font-size: 13px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.four__wrapper .four__wrapper__third__one span:nth-child(7) h2 {
+    font-size: 13px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-top: 29px;
+}
+.four__wrapper .four__wrapper__third__one span:nth-child(8) h2 {
+    font-size: 13px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+/* styling .four__wrapper__third__one ends here */
+.four__wrapper .four__wrapper__fourth {
+    flex: 1;
+    border: 0.3px solid lightgrey;
+    height: 170vh;
+    width: 130vw;
+    margin-bottom: 300px;
+}
+.four__wrapper .four__wrapper__fourth__one {
+    display: flex;
+    flex-direction: column;
+    font-family: proxima-nova,sans-serif;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 15px;
+}
+.four__wrapper .four__wrapper__fourth__one span:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    font-weight: bolder;
+    margin-top: 10px;
+    font-size: 19px
+}
+.four__wrapper .four__wrapper__fourth__one span:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    font-weight: 800;
+    font-size: 37px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 10px;
+}
+.four__wrapper .four__wrapper__fourth__one span:nth-child(3) {
+    font-size: 14px;
+    margin-top: 9px;
+}
+.four__wrapper .four__wrapper__fourth__one span button {
+    display: flex;
+    background-color: #2c76dc;
+    background-image: none;
+    border: 1px solid #2c76dc;
+    color: #fff;
+    margin-top: 20px;
+    border-radius: 3px;
+    padding: 9px ;
+    width: 130px;
+}
+.four__wrapper .four__wrapper__fourth__one span button:hover {
+    background-color:#ccedff;
+}
+.four__wrapper .four__wrapper__fourth__one span:nth-child(4) button a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 200;
+    color: #fff;
+    margin-left: 30px;
+}
+.four__wrapper .four__wrapper__fourth__one span:nth-child(5) {
+    display: flex;
+    margin-top: 40px;
+}
+.four__wrapper .four__wrapper__fourth__one span:nth-child(6) h2 {
+    font-size: 13px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.four__wrapper .four__wrapper__fourth__one span:nth-child(7) h2 {
+    font-size: 13px;
+    margin-top: 20px;
+    margin-bottom: 16px;
+}
+.four__wrapper .four__wrapper__fourth__one span:nth-child(8) h2 {
+    font-size: 13px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+ .container_six {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     flex: 7;
+     background-color:#ccedff;
+     font-family: proxima-nova,sans-serif ;
+     border-radius: 2px;
+     padding: 99px ;
+     height: 90vh;
+ }
+ .container_six .rich_title {
+     display: flex;
+     flex-direction: row;
+     margin-left: 360px;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     margin-top: 60px;
+     margin-bottom: 30px;
+     width: 300px;
+     font-size: 15px;
+ }
+ .container_six .contents {
+     display: flex;
+     flex-direction: row;
+     margin-bottom: 80px;
+     padding: 40px;
+     height: 100vh;
+     width: 90vw;
+ }
+ .container_six .contents .content_one .icon_container {
+     display: flex;
+     flex-direction: column;
+     width: 25vw;
+     margin-bottom: 30px;
+ }
+ .container_six .contents .content_one .icon_container h4 {
+     margin-bottom: 10px;
+ }
+ .container_six .contents .content_two .icon_container p {
+     color: #1d2a3b;
+ }
+ .container_six .contents .content_one .icon_container_two h4 {
+     margin-bottom: 10px;
+ }
+ .container_six .contents .content_one .icon_container_two p {
+     color: #1d2a3b;
+ }
+ .container_six .contents .content_two{
+     width: 30vw;
+     margin-left: 30px;
+ }
+ .container_six .contents .content_two .icon_container_three {
+     display: flex;
+     flex-direction: column;
+     width: 25vw;
+     margin-bottom: 30px;
+ }
+ .container_six .contents .content_two .icon_container_three h4 {
+     margin-bottom: 10px;
+ }
+ .container_six .contents .content_two .icon_container_three p {
+     color: #1d2a3b;
+ }
+ .container_six .contents .content_two .icon_container_four h4 {
+     margin-bottom: 10px;
+ }
+ .container_six .contents .content_two .icon_container_four p {
+     color: #1d2a3b;
+ }
+ .container_six .contents .content_three {
+     width: 27vw;
+     margin-left: 27px
+ }
+ .container_six .contents .content_three .icon_container_five {
+     display: flex;
+     flex-direction: column;
+     margin-bottom: 50px;
+ }
+ .container_six .contents .content_three .icon_container_five h4 {
+     margin-bottom: 10px;
+ }
+ .container_six .contents .content_two .icon_container_five p {
+     color: #1d2a3b;
+ }
+ .container_six .contents .content_three .icon_container_six h4 {
+     margin-bottom: 10px;
+ }.container_six .contents .content_three .icon_container_six p {
+     color: #495c77;
+ }
+
+
+
+ 
